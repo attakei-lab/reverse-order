@@ -1,0 +1,16 @@
+[package]
+name = "reverse-utils"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "evom"
+path = "src/cli/evom.rs"
+
+[[bin]]
+name = "ypoc"
+path = "src/cli/ypoc.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
